@@ -17,5 +17,22 @@ Keras Wrappers for Learnable - FIR built on top of Tensorflow backend
 - Tensorflow
 
 ### Usage:
-`` from custom_layers import Conv1DLinearPhase
+`` from custom_layers import Conv1D_linearphase
 ``
+
+Use it like any convolutional layer in Keras.
+
+
+```
+
+from keras.models import Model
+from keras.layers import Input, Dense, Conv1D
+from custom_layers import Conv1D_linearphase
+
+x = Input(shape=(32,))
+x = Conv1D_linearphase(1, 61, padding='valid')
+x = Conv1D(8, 5, padding='same', activation='relu')
+x = Dense(32)(x)
+model = Model(inputs=a, outputs=b)
+
+```
