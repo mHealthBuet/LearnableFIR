@@ -36,3 +36,24 @@ x = Dense(32)(x)
 model = Model(inputs=a, outputs=b)
 
 ```
+### Cite:
+```
+
+@article{humayun2018learning,
+  title={Learning Front-end Filter-bank Parameters using Convolutional Neural Networks for Abnormal Heart Sound Detection},
+  author={Humayun, Ahmed Imtiaz and Ghaffarzadegan, Shabnam and Feng, Zhe and Hasan, Taufiq},
+  journal={Proc. EMBC 2018},
+  year={2018}
+}
+
+@inproceedings{Humayun2018,
+  author={Ahmed Imtiaz Humayun and Md. Tauhiduzzaman Khan and Shabnam Ghaffarzadegan and Zhe Feng and Taufiq Hasan},
+  title={An Ensemble of Transfer, Semi-supervised and Supervised Learning Methods for Pathological Heart Sound Classification},
+  year=2018,
+  booktitle={Proc. Interspeech 2018},
+  pages={127--131},
+  doi={10.21437/Interspeech.2018-2413},
+  url={http://dx.doi.org/10.21437/Interspeech.2018-2413}
+}
+
+```
