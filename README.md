@@ -15,3 +15,7 @@ Keras Wrappers for Learnable - FIR built on top of Tensorflow backend
 ### Requirements:
 - Keras
 - Tensorflow
+
+### Usage:
+`` from custom_layers import Conv1DLinearPhase
+``
