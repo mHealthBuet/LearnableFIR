@@ -29,7 +29,7 @@ from keras.models import Model
 from keras.layers import Input, Dense, Conv1D
 from custom_layers import Conv1D_linearphase
 
-x = Input(shape=(2500,))
+x = Input(shape=(2500,1))
 x = Conv1D_linearphase(3, 61, padding='valid') # Filterbank of 3 filters, outputs stacked along channel axis
 x = Conv1D(8, 5, padding='same', activation='relu')
 x = Dense(32)(x)
